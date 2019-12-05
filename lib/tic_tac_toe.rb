@@ -90,6 +90,7 @@ class TicTacToe
     if !won? || !draw?
       turn
       play
+    elsif won?
     end
   end
 end
