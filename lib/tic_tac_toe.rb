@@ -71,7 +71,6 @@ class TicTacToe
 
   def full?
     turn_count == 9
-    binding.pry
   end
 
 end
