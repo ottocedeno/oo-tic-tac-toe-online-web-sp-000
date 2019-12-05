@@ -76,6 +76,10 @@ class TicTacToe
   def draw?
     full? && !won?
   end
+
+  def over?
+
+  end
 end
 
 # game1 = TicTacToe.new
