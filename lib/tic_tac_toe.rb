@@ -81,7 +81,9 @@ class TicTacToe
     draw? || won?
   end
 
-  
+  def winner
+
+  end
 end
 
 # game1 = TicTacToe.new
