@@ -51,7 +51,7 @@ class TicTacToe
     user_input = gets.chomp
     user_index = input_to_index(user_input)
     if valid_move?(user_index)
-      move(user_index, turn_count)
+      move(user_index, current_player)
     else
       turn
     end
