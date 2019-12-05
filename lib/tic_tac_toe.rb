@@ -1,3 +1,5 @@
+require 'pry'
+
 class TicTacToe
 
   def initialize
