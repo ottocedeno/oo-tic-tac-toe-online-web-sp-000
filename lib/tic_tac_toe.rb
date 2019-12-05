@@ -68,7 +68,13 @@ class TicTacToe
   end
 
   def full?
-    @board.count {|index| @board[index] == "X" || "O"}.to_i == 9
+    binding.pry
   end
 
 end
+
+game1.move(1, "X")
+game1.move(0, "X")
+game1.move(2, "X")
+
+game1.full?
