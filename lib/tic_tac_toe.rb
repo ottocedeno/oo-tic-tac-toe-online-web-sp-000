@@ -68,7 +68,7 @@ class TicTacToe
   end
 
   def full?
-
+    @board.all? {|position| position == "X" || "O"}
   end
 
 end
