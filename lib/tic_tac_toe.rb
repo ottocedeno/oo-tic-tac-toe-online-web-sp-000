@@ -88,6 +88,7 @@ class TicTacToe
 
   def play
     if !won? || !draw?
+    end
   end
 end
 
