@@ -82,7 +82,7 @@ class TicTacToe
   end
 
   def winner
-
+    won?[0] if won?
   end
 end
 
