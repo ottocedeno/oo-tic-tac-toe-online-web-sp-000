@@ -67,4 +67,8 @@ class TicTacToe
     nil
   end
 
+  def full?
+
+  end
+
 end
