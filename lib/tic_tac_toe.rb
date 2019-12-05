@@ -83,7 +83,6 @@ class TicTacToe
 
   def winner
     @board[won?[0]] if won?
-    # binding.pry
   end
 end
 
