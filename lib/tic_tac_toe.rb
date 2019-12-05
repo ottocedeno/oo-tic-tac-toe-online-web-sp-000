@@ -92,6 +92,8 @@ class TicTacToe
       play
     elsif won?
       puts "Congratulations the winner is #{winner}"
+    else
+      puts "Cat's Game!"
     end
   end
 end
