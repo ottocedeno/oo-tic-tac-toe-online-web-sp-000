@@ -70,7 +70,7 @@ class TicTacToe
   end
 
   def full?
-    test1 = @board.all? {|index| @board[index] == " "}
+    turn_count == 9
     binding.pry
   end
 
