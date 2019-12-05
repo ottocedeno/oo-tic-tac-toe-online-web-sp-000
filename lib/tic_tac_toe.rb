@@ -75,6 +75,7 @@ class TicTacToe
 
 end
 
+game1 = TicTacToe.new
 game1.move(1, "X")
 game1.move(0, "X")
 game1.move(2, "X")
