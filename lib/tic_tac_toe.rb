@@ -83,6 +83,7 @@ class TicTacToe
 
   def winner
     won?[0] if won?
+    nil
   end
 end
 
