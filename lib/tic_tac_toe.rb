@@ -64,6 +64,7 @@ class TicTacToe
         return win_combo
       end
     end
+    nil
   end
 
 end
