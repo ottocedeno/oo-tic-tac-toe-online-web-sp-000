@@ -70,6 +70,7 @@ class TicTacToe
   end
 
   def full?
+    test1 = @board.all? {|index| @board[index] == " "}
     binding.pry
   end
 
