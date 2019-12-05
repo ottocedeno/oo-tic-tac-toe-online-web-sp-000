@@ -91,6 +91,7 @@ class TicTacToe
       turn
       play
     elsif won?
+      puts "Congratulations the winner is #{winner}"
     end
   end
 end
