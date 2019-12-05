@@ -50,7 +50,7 @@ class TicTacToe
   end
 
   def turn
-    puts "Please select a move:"
+    puts "Please select a valid move:"
     user_input = gets.chomp
     user_index = input_to_index(user_input)
     if valid_move?(user_index)
