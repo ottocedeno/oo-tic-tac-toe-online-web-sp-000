@@ -60,8 +60,6 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.each do |win_combo|
-      # binding.pry
-
       if win_combo.all? {|win_index| @board[win_index] == "X"} || win_combo.all? {|win_index| @board[win_index] == "0"}
         return win_combo
       end
