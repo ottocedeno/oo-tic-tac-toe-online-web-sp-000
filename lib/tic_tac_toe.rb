@@ -73,6 +73,9 @@ class TicTacToe
     turn_count == 9
   end
 
+  def draw?
+
+  end
 end
 
 # game1 = TicTacToe.new
