@@ -92,4 +92,5 @@ game1.move(1, "X")
 game1.move(0, "X")
 game1.move(2, "X")
 
+game1.winner
 # game1.full?
