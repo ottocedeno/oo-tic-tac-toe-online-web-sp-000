@@ -68,7 +68,7 @@ class TicTacToe
   end
 
   def full?
-    @board.count {|index| @board[index]}
+    @board.count {|index| @board[index] == "X" || "O"}
   end
 
 end
