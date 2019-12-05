@@ -83,6 +83,7 @@ class TicTacToe
 
   def winner
     test1 = won?[0]
+    binding.pry
   end
 end
 
