@@ -4,4 +4,6 @@ require_relative '../lib/tic_tac_toe.rb'
 
 game1 = TicTacToe.new
 
-binding.pry
+game1.move(1, "X")
+game1.move(0, "X")
+game1.move(2, "X")
